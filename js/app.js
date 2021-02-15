@@ -87,7 +87,7 @@ $(document).ready(function() {
 
 
     let readJson = () => {
-        $.ajax("../data/page-1.json", { method: "GET", dataType: "JSON" }).then(data => {
+        $.ajax("data/page-1.json", { method: "GET", dataType: "JSON" }).then(data => {
             data.forEach(element => {
                 let horn = new Horns(element.image_url, element.title, element.description, element.keyword, element.horns);
                 console.log(horn);
