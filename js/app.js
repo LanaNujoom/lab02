@@ -44,9 +44,6 @@ $(document).ready(function() {
 
         $photoSection.attr('class', this.keyword);
 
-
-
-
     }
 
 
