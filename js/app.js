@@ -47,32 +47,9 @@ $(document).ready(function() {
     }
 
 
-    Horns.prototype.renderSelect = function() {
-
-        let $selectedPhoto = $('.sel').clone();
-
-        $selectedPhoto.removeClass('sel');
-
-
-        $selectedPhoto.find('option').val(this.keyword);
-
-        $('option').append($selectedPhoto);
 
 
 
-    }
-
-
-
-
-    Horns.prototype.renderSelect = function() {
-        let selectMenu = $('.sel');
-        if (!(keysArray.includes(this.keyword))) {
-            keysArray.push(this.keyword);
-            selectMenu.append(`<option> ${this.keyword} </option>`);
-        }
-
-    };
 
 
     Horns.prototype.renderSelect = function() {
