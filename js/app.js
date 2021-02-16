@@ -82,7 +82,6 @@ $(document).ready(function() {
 
 
 
-
 $('.sel').change(function() {
     let keys = $(this).children('option:selected').val();
     keysArray.forEach(function(val) {
