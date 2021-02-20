@@ -6,6 +6,7 @@ let allPhotos = [];
 
 
 
+
 $(document).ready(function() {
 
     function Horns(image_url, title, description, keyword, horns) {
